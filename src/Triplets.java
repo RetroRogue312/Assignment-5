@@ -20,7 +20,7 @@ public class Triplets
                     int left = 0;
                     int right = combo.length() - 1;
                     boolean isPal = true;
-                    while (left <= right)//O(n/2)->O(n)
+                    while (left <= right)
                     {
                         if (combo.charAt(left) != combo.charAt(right))
                         {
